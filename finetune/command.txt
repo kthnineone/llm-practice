@@ -1,0 +1,4 @@
+
+# > Trainer_log.log 2>&1 명령어를 활용해서 command의 output을 Trainer_log.log 파일에 기록한다. 
+torchrun smollm2_ft_Trainer-upload.py --config smollm2_ft_Trainer-upload.yaml > Trainer_log.log 2>&1
+

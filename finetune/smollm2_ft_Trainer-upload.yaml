@@ -1,0 +1,31 @@
+# Fine Tuning for Finance-SmolLM2-Ko
+model_name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct'
+#model_name: 'meta-llama/Llama-3.2-1B-Instruct'
+#optim: "adamw_torch_fused"
+dataset_path: '.'
+max_seq_length: 512
+output_dir: './smollm2_fine_tune_trainer_results'
+report_to: 'wandb'
+laering_rate: 0.00005
+lr_scheduler_type: 'linear'
+per_device_train_batch_size: 4
+per_device_eval_batch_size: 4
+#gradient_accumulation_steps: 4
+max_steps: 2000
+save_strategy: 'steps'
+save_steps: 500
+#num_train_epochs: 5
+weight_decay: 0.01
+max_grad_norm: 0.5
+warmup_steps: 0
+#warmup_ratio: 0.03
+logging_steps: 10
+logging_dir: "./logs"
+bf16: true
+tf32: true
+gradient_checkpointing: true
+#fsdp: 'full_shard auto_wrap'
+#fsdp_config:
+#  backward_prefetch: 'backward_pre'
+#  forward_prefetch: 'false'
+#  use_orig_params: 'false'
