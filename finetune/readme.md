@@ -1,6 +1,10 @@
 # Fine-Tuning  
 
-Data:  
+**Model:**  
+[Huggingface SmolLm2-1.7B-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct)  
+
+
+**Data:**  
 [BC Card Finance Kor Data]([https://huggingface.co/datasets/nayohan/finance-alpaca-ko](https://huggingface.co/datasets/BCCard/BCAI-Finance-Kor))
 
 
