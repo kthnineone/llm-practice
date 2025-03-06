@@ -1,7 +1,7 @@
 # Fine-Tuning  
 
 Data:  
-[Finance Alpaca Ko](https://huggingface.co/datasets/nayohan/finance-alpaca-ko)
+[BC Card Finance Kor Data]([https://huggingface.co/datasets/nayohan/finance-alpaca-ko](https://huggingface.co/datasets/BCCard/BCAI-Finance-Kor))
 
 
 **References:**  
