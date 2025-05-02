@@ -37,3 +37,4 @@ Use LangGraph and Decide to do RAG or Not.
 
 Check groundedness score, context relevancy, response relevancy to measure the reponse and RAG performance. 
 
+Use both Gemini API and OpenAI API 
