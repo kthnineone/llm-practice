@@ -23,11 +23,17 @@ Equipment: RTX 4090 24 GB
 
 ## RAG (Retrieval Augmented Generation)  
 
+1. Ensemble Sparse Retirver and Dense Retriever
+
 Dense Retriever (Vector Store): [LangChain FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss/)   
 
 Sparse Retriever (Traditional Search Method): [BM25](https://github.com/dorianbrown/rank_bm25)  
 
 rank_bm25 is a component of LangChain in sparse retriving process.  
 
+2. RAG condidering Department and Rank in a Corporation.
 
+Use LangGraph and Decide to do RAG or Not.  
+
+Check groundedness score, context relevancy, response relevancy to measure the reponse and RAG performance. 
 
