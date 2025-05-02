@@ -17,5 +17,5 @@ BM25와 FAISS의 L2 distance를 앙상블한 RAG의 예시
 
 그리고 Hallucination이나 context relevancy, 그리고 response relevancy도 함께 측정해서 RAG 자체의 성능도 평가한다.  
 
-
+Gemini API와 OpenAI API를 모두 사용해서 여러개의 LLM API 사용도 실험. 
 
